@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row{
+    height: 250px;
+    outline: 1px solid black;
+    display: flex;
+    background-color: coral;
+    justify-content: center;   
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    outline: 1px solid black;
+    margin-right: 180px;
+}
