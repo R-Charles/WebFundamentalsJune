@@ -1,0 +1,19 @@
+#One{
+    height: 150px;
+    background-color: red;
+}
+#Side{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 20px;
+    display:inline-block;
+    vertical-align: top;
+}
+#Main{
+    height: 250px;
+    width: 400px;
+    background-color: green;
+    margin-top: 20px;
+    display:inline-block;
+}
