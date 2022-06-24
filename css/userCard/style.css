@@ -38,4 +38,6 @@
     position: relative;
     top: 40px;
     left: 30px;
+    /* border-radius: 2px solid white; */
+    border: 3px solid white;
 }
