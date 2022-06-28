@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+#nav-bar{
+    /* outline: 2px dotted red; */
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0px 25px 20px 25px;
+}
+#nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    padding-right: 40px;
+}
+#login {
+    background-color: rgb(42, 120, 228);
+    color: white;
+    box-shadow: 3px 3px black;
+
+}
+#main{
+    outline: 2px dotted red;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#col-1{
+    /* outline: 2px solid black; */
+    /* height: 400px; */
+    /* width: 200px; */
+    /* display: flex; */
+
+}
+
+#col-2{
+    /* outline: 2px dotted blue; */
+    height: 400px;
+    width: 200px; 
+    margin-right: 50px;
+}
+#Ninja1{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+#top-right{
+    display: flex;
+}
+#Ninja2{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+#bottom-right{
+    display: flex;
+}
+#like{
+    background-color: gold;
+    color: black;
+    box-shadow: 3px 3px black;
+    margin-top: 25px;
+}
+#you1{
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 27px;
+    padding-right: 20px;
+}
+#def{
+    background-color: rgb(147, 196, 125);
+    color: black;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}
