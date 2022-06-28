@@ -14,7 +14,7 @@
         <input type="text" placeholder="search a puppy name" />
         <button>Search</button>
       </div>
-      <button>Login</button>
+      <button onclick="removeElement(this)">Login</button>
     </div>
     <div id="main">
       <div id="col-left">
@@ -56,14 +56,11 @@
       <div id="col-right">
         <div id="upload" class="upload">
           <p>Please upload your pup to our puppy social media.</p>
-          <button>Upload New Pup!</button>
+          <button onclick="uploadPup(this)">Upload New Pup!</button>
         </div>
         <div id="videobox">
           <p>Our popular video of the week!</p>
-          <video
-            onmouseover="playVideo(this)"
-            src="./resources/puppy_video.mp4"
-          ></video>
+          <video src="./resources/puppy_video.mp4"></video>
           <br />
           <em>This is Josie, the playful beach dog.</em>
         </div>

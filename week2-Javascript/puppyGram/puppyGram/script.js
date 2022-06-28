@@ -1,14 +1,10 @@
+
+function uploadPup(element){
+    console.log("helloooooo", element);
+    element.innerText = "Uploaded Thankyou";
+}
+
 function removeElement(element){
-    console.log("trying to remove something...wazaaa");
-    element.remove();
-}
-
-function playVideo(element){
-    console.log("wazaa playing video!");
-    element.play();
-}
-
-
-function changeImg(element){
-    console.log("wazaaaa", element);
+    console.log("trying to remove something...hola")
+element.remove()
 }
