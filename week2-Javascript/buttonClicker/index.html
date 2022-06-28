@@ -15,7 +15,7 @@
           <input type="text" size="30" placeholder="Search" />
         </div>
       </div>
-      <button onclick="removeElement(this)" id="login">Login</button>
+      <button onclick="changeOver(this)" id="login">Login</button>
     </div>
     <div id="main">
       <div id="col-1">
@@ -24,7 +24,9 @@
             <h1>Ninja</h1>
             <h2><em>noun</em></h2>
             <p>Plural: ninjas</p>
-            <button id="like">13 Likes</button>
+            <button id="like" onclick="alert('Ninja was liked!')">
+              13 Likes
+            </button>
           </div>
           <div id="top-right">
             <p>
@@ -52,7 +54,7 @@
       <div id="col-2">
         <div id="you1">
           <h2 id="you2">Dojonary is defined by YOU</h2>
-          <button id="def">Add Definition</button>
+          <button id="def" onclick="removeElement(this)">Add Definition</button>
         </div>
       </div>
     </div>

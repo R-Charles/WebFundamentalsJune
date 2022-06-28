@@ -8,3 +8,13 @@ function removeElement(element){
     console.log("trying to remove something...hola")
 element.remove()
 }
+
+function incrementLike(id){
+    console.log("liking", id);
+    var element = document.querySelector(id);
+
+    let likecount =  Number(element.innerText);
+
+    likecount++;
+    element.innerText = likeCount
+}
