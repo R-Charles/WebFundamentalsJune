@@ -1,0 +1,35 @@
+@import https://fonts.google.com/specimen/Balsamiq+Sans#about
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#user{
+    /* height: 100px; */
+    width: 380px;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+
+#userBox1{
+    outline: 1px dotted red;
+    /* width: 400px; */
+    display: flex;
+    padding-bottom: 30px;
+    gap: 40px;
+    font-family: balsam;
+}
+
+#userBox2{
+    outline: 1px dotted red;
+    /* width: 400px; */
+}
+
+#likes{
+    background-color: yellow;
+    padding: 0px 25px;
+    box-shadow: 3px 3px black;
+}
