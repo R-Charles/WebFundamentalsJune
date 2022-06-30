@@ -18,3 +18,9 @@ function incrementLike(id){
     likecount++;
     element.innerText = likeCount
 }
+function alert messagefrominput(){
+    console.log("smoooooooooov");
+   
+    let searchInput = document.querySelector
+    alert("you searched for" + searchInput.value);
+}
