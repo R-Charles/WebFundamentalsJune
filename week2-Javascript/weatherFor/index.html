@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-l">
+        <h1>DojoWeather</h1>
+      </div>
+      <div id="header-r">
+        <ul>
+          <li onclick="alert('Going to Burbank')">Burbank</li>
+          <li onclick="alert('Going to Chicago')">Chicago</li>
+          <li onclick="alert('Going to Dallas')">Dallas</li>
+        </ul>
+      </div>
+    </div>
+    <div id="sub-header2">
+      <h2><strong>San Jose</strong></h2>
+      <p>show temperature in</p>
+      <select name="temp" id="">
+        <option value=""></select>°C
+      </select></option>
+    </div>
+    <div id="line"></div>
+    <div id="main">
+      <div class="days">
+        <h2>Today</h2>
+        <img class="sun" src="some_rain.png" alt="" />
+        <h4>some rain</h4>
+        <div class="temp"><scan>24°</scan> <scan>18°</scan></div>
+      </div>
+      <div class="days">
+        <h2>Today</h2>
+        <img class="sun" src="some_sun.png" alt="" />
+        <h4>some rain</h4>
+        <div class="temp"><scan>27°</scan> <scan>19°</scan></div>
+      </div>
+      <div class="days">
+        <h2>Today</h2>
+        <img class="sun" src="some_clouds.png" alt="" />
+        <h4>some rain</h4>
+        <div class="temp"><scan>21°</scan> <scan>16°</scan></div>
+      </div>
+      <div class="days">
+        <h2>Today</h2>
+        <img class="sun" src="some_sun.png" alt="" />
+        <h4>some rain</h4>
+        <div class="temp"><scan>26°</scan> <scan>21°</scan></div>
+      </div>
+    </div>
+    <div id="cookie-box">
+      <img src="cookie.png" alt="" />
+      <h3>Stop! Cookie time</h3>
+      <p>
+        We use cookies(sadly not the edible ones) to persoalize content and ads,
+        to provide social media features and to analyse our traffic.
+        <a href="#">Read more...</a>
+      </p>
+      <button onclick="cookieMonster()">I accept</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
